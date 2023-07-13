@@ -9,7 +9,7 @@
     "start_dev": "set NODE_ENV=development&&nodemon server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
     "build": "npm run build-client",
-    "build-client": "cd client && npm run build"
+    "build-client": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
