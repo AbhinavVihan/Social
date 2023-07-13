@@ -31,7 +31,7 @@ const CreatePostPage = () => {
   useEffect(() => {
     if (!postLoading && postError === "") {
       navigate("/posts");
-    }
+    } // eslint-disable-next-line
   }, [postLoading, postError]);
 
   const users = useSelector(selectAllUsers);

@@ -96,7 +96,7 @@ const UserProfilePage: React.FC<{}> = () => {
         <div className="w-1/2 sm:w-1/4 mb-4">
           <img
             src={user.imageUrl}
-            alt="Profile Picture"
+            alt="Profile"
             className="rounded-full h-40 w-40 object-cover mx-auto"
           />
         </div>
